@@ -26,10 +26,10 @@ Each stage passes its output directly into the next using **LCEL composition** (
 
 ```
 requirements-analyzer/
-├── main.py            ← the single script — run this
-├── requirements.txt   ← Python dependencies
-├── .env.example       ← template for your secrets
-├── .gitignore         ← keeps .env out of git
+├── main.py          
+├── requirements.txt  
+├── .env.example       
+├── .gitignore     
 └── README.md
 ```
 

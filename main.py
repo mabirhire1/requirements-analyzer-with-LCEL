@@ -10,7 +10,7 @@ from langchain_core.output_parsers import StrOutputParser
 load_dotenv()
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-MODEL_NAME         = os.getenv("LLM_MODEL_NAME")
+MODEL_NAME         = os.getenv("MODEL_NAME")
 
 if not OPENROUTER_API_KEY:
     print("ERROR: OPENROUTER_API_KEY is not set. Please add it to your .env file.")
